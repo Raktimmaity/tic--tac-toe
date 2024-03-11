@@ -42,15 +42,9 @@ function Grid({numOfCards}) {
                         {board.map((el, idx)=> <Card gameEnd={winner ? true : false} key={idx} onPlay={play} player={el} index={idx}/>)}
                     </div>
             </div>
-            {
-                winner && (
-                    <>
                     <div className="mt-24 flex justify-center flex-col items-center gap-6">
                         <button className="p-3 text-xl btn font-bold" onClick={reset}>Reset Game</button>
                     </div>
-                    </>
-                )
-            }
         </>
     )
 }
