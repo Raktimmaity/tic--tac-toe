@@ -1,0 +1,6 @@
+.btn{
+    border-radius: 60px;
+    background: #e0e0e0;
+    box-shadow:  -8px 8px 11px #848484,
+                 8px -8px 11px #ffffff;
+}
